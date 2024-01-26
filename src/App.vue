@@ -1,16 +1,16 @@
 <script setup>
-import CreatingAnApplication from "@/components/essentials/CreatingAnApplication.vue";
-import TemplateSyntax from "@/components/essentials/TemplateSyntax.vue";
+import Default from "@/components/Default.vue";
 </script>
 
 <template>
   <header>
     vue 3 cook-book
+    <default />
   </header>
 
+
   <main>
-    <TemplateSyntax />
-    <CreatingAnApplication />
+    <router-view />
   </main>
 </template>
 

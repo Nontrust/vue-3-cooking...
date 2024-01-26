@@ -2,8 +2,8 @@
  * https://router.vuejs.org/guide/
  * 1. Define route components
  */
-import CreatingAnApplication from '@/components/essentials/CreatingAnApplication.vue';
-import TemplateSyntax from '@/components/essentials/TemplateSyntax.vue';
+import CreatingAnApplication from '@/page/essentials/CreatingAnApplication.vue';
+import TemplateSyntax from '@/page/essentials/TemplateSyntax.vue';
 import App from "@/App.vue";
 
 import { createRouter, createWebHistory } from 'vue-router'
