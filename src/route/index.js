@@ -4,6 +4,7 @@
  */
 import CreatingAnApplication from '@/page/essentials/CreatingAnApplication.vue';
 import TemplateSyntax from '@/page/essentials/TemplateSyntax.vue';
+import ReactivityFundamentals from '@/page/essentials/ReactivityFundamentals.vue';
 import App from "@/App.vue";
 
 import { createRouter, createWebHistory } from 'vue-router'
@@ -16,6 +17,7 @@ const routes = [
     {path:'/home', component: App},
     {path:'/essentials/create', component:CreatingAnApplication},
     {path:'/essentials/template-syntax', component:TemplateSyntax},
+    {path:'/essentials/reactivity-fundamentals', component:ReactivityFundamentals},
 ];
 
 /**
