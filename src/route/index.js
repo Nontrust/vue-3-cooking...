@@ -8,6 +8,7 @@ import ReactivityFundamentals from '@/page/essentials/ReactivityFundamentals.vue
 import App from "@/App.vue";
 
 import { createRouter, createWebHistory } from 'vue-router'
+import Computed from "@/page/essentials/computed.vue";
 
 
 /**
@@ -18,6 +19,7 @@ const routes = [
     {path:'/essentials/create', component:CreatingAnApplication},
     {path:'/essentials/template-syntax', component:TemplateSyntax},
     {path:'/essentials/reactivity-fundamentals', component:ReactivityFundamentals},
+    {path:'/essentials/computed', component:Computed},
 ];
 
 /**

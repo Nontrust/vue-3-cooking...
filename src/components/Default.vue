@@ -7,7 +7,8 @@
    <router-link to="/home"> home</router-link>
    <router-link to="/essentials/create"> create</router-link>
    <router-link to="/essentials/template-syntax"> template-syntax</router-link>
-   <router-link to="/essentials/reactivity-fundamentals"> template-syntax</router-link>
+   <router-link to="/essentials/reactivity-fundamentals"> reactivity-fundamentals</router-link>
+   <router-link to="/essentials/computed"> computed</router-link>
  </div>
 
 </template>
