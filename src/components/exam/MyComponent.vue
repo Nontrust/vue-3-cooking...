@@ -5,6 +5,7 @@
 <template>
     <div :class="$attrs.class">
         My Component
+        <strong>{{$attrs.msg}}</strong>
     </div>
 </template>
 

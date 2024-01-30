@@ -11,6 +11,7 @@
    <router-link to="/essentials/computed"> computed</router-link>
    <router-link to="/essentials/class-and-style"> class-and-style</router-link>
    <router-link to="/essentials/conditional"> conditional</router-link>
+   <router-link to="/essentials/list"> list</router-link>
  </div>
 
 </template>

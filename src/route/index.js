@@ -11,6 +11,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Computed from "@/page/essentials/Computed.vue";
 import ClassAndStyle from "@/page/essentials/ClassAndStyle.vue";
 import Conditional from "@/page/essentials/Conditional.vue";
+import List from "@/page/essentials/list.vue";
 
 
 /**
@@ -24,6 +25,7 @@ const routes = [
     {path:'/essentials/computed', component:Computed},
     {path:'/essentials/class-and-style', component:ClassAndStyle},
     {path:'/essentials/conditional', component:Conditional},
+    {path:'/essentials/list', component:List},
 ];
 
 /**
