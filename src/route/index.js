@@ -10,6 +10,7 @@ import App from "@/App.vue";
 import { createRouter, createWebHistory } from 'vue-router'
 import Computed from "@/page/essentials/Computed.vue";
 import ClassAndStyle from "@/page/essentials/ClassAndStyle.vue";
+import Conditional from "@/page/essentials/Conditional.vue";
 
 
 /**
@@ -22,6 +23,7 @@ const routes = [
     {path:'/essentials/reactivity-fundamentals', component:ReactivityFundamentals},
     {path:'/essentials/computed', component:Computed},
     {path:'/essentials/class-and-style', component:ClassAndStyle},
+    {path:'/essentials/conditional', component:Conditional},
 ];
 
 /**
