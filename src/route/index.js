@@ -12,6 +12,7 @@ import Computed from "@/page/essentials/Computed.vue";
 import ClassAndStyle from "@/page/essentials/ClassAndStyle.vue";
 import Conditional from "@/page/essentials/Conditional.vue";
 import List from "@/page/essentials/list.vue";
+import EventHandling from "@/page/essentials/EventHandling.vue";
 
 
 /**
@@ -26,6 +27,7 @@ const routes = [
     {path:'/essentials/class-and-style', component:ClassAndStyle},
     {path:'/essentials/conditional', component:Conditional},
     {path:'/essentials/list', component:List},
+    {path:'/essentials/event-handling', component:EventHandling},
 ];
 
 /**

@@ -12,6 +12,7 @@
    <router-link to="/essentials/class-and-style"> class-and-style</router-link>
    <router-link to="/essentials/conditional"> conditional</router-link>
    <router-link to="/essentials/list"> list</router-link>
+   <router-link to="/essentials/event-handling"> event-handling</router-link>
  </div>
 
 </template>
