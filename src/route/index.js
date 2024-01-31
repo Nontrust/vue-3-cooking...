@@ -13,6 +13,7 @@ import ClassAndStyle from "@/page/essentials/ClassAndStyle.vue";
 import Conditional from "@/page/essentials/Conditional.vue";
 import List from "@/page/essentials/list.vue";
 import EventHandling from "@/page/essentials/EventHandling.vue";
+import Forms from "@/page/essentials/forms.vue";
 
 
 /**
@@ -28,6 +29,7 @@ const routes = [
     {path:'/essentials/conditional', component:Conditional},
     {path:'/essentials/list', component:List},
     {path:'/essentials/event-handling', component:EventHandling},
+    {path:'/essentials/forms', component:Forms},
 ];
 
 /**
